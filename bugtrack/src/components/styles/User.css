@@ -1,0 +1,152 @@
+/* User.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Status button styles */
+.status-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.status-button {
+  background-color: #6a0dad;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.status-details {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  display: none;
+}
+
+.status-container:hover .status-details {
+  display: block;
+}
+
+.status-container:hover .status-details {
+  display: block;
+}
+
+/* Remaining styles remain unchanged */
+  
+/* Dashboard styles */
+.dashboard {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px; /* Add padding */
+  background-color: rgb(0, 0, 0); /* Set background color to black */
+  border-radius: 8px; /* Optionally, add border-radius for rounded corners */
+}
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #6a0dad;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    background-color: #4d057a;
+  }
+  
+  /* Form container styles */
+  .form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Form styles */
+  .form-label {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4d057a;
+  }
+  
+  /* Pending requests styles */
+  .pending-requests {
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background-color: #6a0dad;
+  }
+  
+  .pending-message {
+    display: block;
+    margin-top: 10px;
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Animation styles */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  

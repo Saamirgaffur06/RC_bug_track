@@ -1,0 +1,40 @@
+/* styles/AboutUsPage.css */
+.about-us-page {
+    color: aliceblue;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out; /* Add animation */
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .content {
+    margin-top: 50px;
+  }
+  
+  .content h2 {
+    text-align: center;
+  }
+  
+  .content p {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
