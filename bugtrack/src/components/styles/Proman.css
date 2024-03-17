@@ -1,0 +1,88 @@
+/* Proman.css */
+
+h1{
+  color: aliceblue;
+}
+
+.widgets-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center widgets horizontally */
+  gap: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out; 
+  margin-top: 50px; /* Add some margin from the top */
+}
+
+.dashboard {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+}
+
+  
+  .widget-container {
+    position: relative;
+  }
+  
+  .widget-button {
+    padding: 100px 200px;
+    background-color: #6f00c4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .widget-button:hover {
+    background-color: #8a00a2;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popup {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .popup h2,
+  .popup h3,
+  .popup h4 {
+    margin: 0 0 10px;
+  }
+  
+  .popup ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .popup li {
+    margin-bottom: 5px;
+  }
+  
+  .popup button {
+    padding: 10px 20px;
+    background-color: #c800ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .popup button:hover {
+    background-color: #8600b3;
+  }
+  
+  
